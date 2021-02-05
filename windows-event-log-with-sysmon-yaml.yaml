@@ -1,0 +1,136 @@
+version: 1
+file_type: data-source-administration
+name: example
+platform:
+  - all
+data_sources:
+  - data_source_name: Process monitoring
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-01T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: DLL monitoring
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-03T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: DNS records
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: File monitoring
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: Named Pipes
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: Process command-line parameters
+    date_registered: 2021-02-02T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: Process use of network
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: Windows Registry
+    date_registered: 2021-02-02T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: WMI Objects
+    date_registered: 2021-02-02T00:00:00.000Z
+    date_connected: 2021-02-03T00:00:00.000Z
+    products:
+      - sysmon
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
+  - data_source_name: Windows event logs
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-02T00:00:00.000Z
+    products:
+      - 'windows os '
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1

@@ -1,0 +1,19 @@
+version: 1
+file_type: data-source-administration
+name: example
+platform:
+  - all
+data_sources:
+  - data_source_name: Windows event logs
+    date_registered: 2021-02-01T00:00:00.000Z
+    date_connected: 2021-02-01T00:00:00.000Z
+    products:
+      - windows os
+    available_for_data_analytics: true
+    comment: ''
+    data_quality:
+      device_completeness: 1
+      data_field_completeness: 1
+      timeliness: 1
+      consistency: 1
+      retention: 1
